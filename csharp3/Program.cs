@@ -35,19 +35,26 @@ namespace Assignment
 
             #region Q3
             //3 - Write a program that takes 3 integers from the user then prints the max element and the min element.
-            int Num1, Num2, Num3, Max, Min ;
-            Console.Write("Enter the first number: ");
-            Num1 = int.Parse(Console.ReadLine());
-            Console.Write("Enter the second number: ");
-            Num2 = int.Parse(Console.ReadLine());
-            Console.Write("Enter the third number: ");
-            Num3 = int.Parse(Console.ReadLine());
+            //int Num1, Num2, Num3, Max, Min ;
+            //Console.Write("Enter the first number: ");
+            //Num1 = int.Parse(Console.ReadLine());
+            //Console.Write("Enter the second number: ");
+            //Num2 = int.Parse(Console.ReadLine());
+            //Console.Write("Enter the third number: ");
+            //Num3 = int.Parse(Console.ReadLine());
 
-             Max = Num1 > Num2 ? (Num1 > Num3 ? Num1 : Num3) : (Num2 > Num3 ? Num2 : Num3);
-             Min = Num1 < Num2 ? (Num1 < Num3 ? Num1 : Num3) : (Num2 < Num3 ? Num2 : Num3);
+            // Max = Num1 > Num2 ? (Num1 > Num3 ? Num1 : Num3) : (Num2 > Num3 ? Num2 : Num3);
+            // Min = Num1 < Num2 ? (Num1 < Num3 ? Num1 : Num3) : (Num2 < Num3 ? Num2 : Num3);
 
-            Console.WriteLine( $"Max is {Max}");
-            Console.WriteLine($"Min is {Min}");
+            //Console.WriteLine( $"Max is {Max}");
+            //Console.WriteLine($"Min is {Min}");
+            #endregion
+
+            #region Q4
+            //4- Write a program that allows the user to insert an integer number then check If a number is even or odd.
+            //Console.Write("Enter a Number : ");
+            //Console.WriteLine( int.Parse(Console.ReadLine()) % 2 == 0 ? "even" : "odd" );
+
             #endregion
         }
     }
