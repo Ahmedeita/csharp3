@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Transactions;
 using System.Xml.Linq;
 
 namespace Assignment
@@ -88,8 +89,26 @@ namespace Assignment
             //while (i <= 12)
             //    Console.WriteLine($"{Num} * {i} = {Num*i++}");
 
-            
-             
+
+
+            #endregion
+
+            #region Q7-Number9-
+            //9- Write a program that takes two integers then prints the power.
+            //Console.Write("Enter the Number : ");
+            //int num = int.Parse(Console.ReadLine());
+            //Console.Write("Enter the exponent x : ");
+            //int x = int.Parse(Console.ReadLine());
+
+            //int result=1;
+            //int i = 0;
+            //while (i < x)
+            //{
+            //    result *= num;
+            //    i++;
+            //}
+            //Console.WriteLine($"{num} ^ {x} = {result} ");
+
             #endregion
 
         }
