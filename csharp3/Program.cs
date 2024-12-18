@@ -78,6 +78,20 @@ namespace Assignment
 
             #endregion
 
+            #region Q6-Number7-
+            //7- Write a program that allows the user to insert an integer then print a multiplication table up to 12.
+            //Console.Write("ENTER THE NUMBER : ");
+
+            //int Num = int.Parse(Console.ReadLine());
+
+            //int i = 1;
+            //while (i <= 12)
+            //    Console.WriteLine($"{Num} * {i} = {Num*i++}");
+
+            
+             
+            #endregion
+
         }
     }
 }
