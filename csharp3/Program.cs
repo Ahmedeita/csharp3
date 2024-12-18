@@ -111,6 +111,27 @@ namespace Assignment
 
             #endregion
 
+            #region Q8-Number10-
+            //10- Write a program to enter marks of five subjects and calculate total, average and percentage.
+            //Console.Write("Mark of Subject 1");
+            //int Subject1 = int.Parse(Console.ReadLine());
+            //Console.Write("Mark of Subject 2");
+            //int Subject2 = int.Parse(Console.ReadLine());
+            //Console.Write("Mark of Subject 3");
+            //int Subject3 = int.Parse(Console.ReadLine());
+            //Console.Write("Mark of Subject 4");
+            //int Subject4 = int.Parse(Console.ReadLine());
+            //Console.Write("Mark of Subject 5");
+            //int Subject5 = int.Parse(Console.ReadLine());
+
+            //int Total = Subject1 + Subject2 + Subject3 + Subject4 + Subject5;
+
+            //Console.WriteLine($"Total is {Total}");
+            //Console.WriteLine($"Average is {Total / 5}");
+            //Console.WriteLine($"Percentage is {Total / 5} %");
+
+            #endregion
+
         }
     }
 }
