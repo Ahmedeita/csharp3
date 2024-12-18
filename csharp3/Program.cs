@@ -56,6 +56,28 @@ namespace Assignment
             //Console.WriteLine( int.Parse(Console.ReadLine()) % 2 == 0 ? "even" : "odd" );
 
             #endregion
+
+            #region Q5
+            //Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
+            //Console.Write("Enter Character : ");
+            //char Character = char.Parse(Console.ReadLine());
+            //switch (char.ToLower(Character))
+            //{
+            //    case 'a':
+            //    case 'e':
+            //    case 'i':
+            //    case 'o':
+            //    case 'u':
+            //        Console.WriteLine("Vowel");
+            //        break;
+            //    default:
+            //        Console.WriteLine("consonant");
+            //        break;
+            //}
+
+
+            #endregion
+
         }
     }
 }
