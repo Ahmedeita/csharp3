@@ -132,6 +132,44 @@ namespace Assignment
 
             #endregion
 
+            #region Q9-NUMBER 11
+            //11- Write a program to input the month number and print the number of days in that month.
+
+
+            /*  // WE CAN USE ARRAY 
+              int [] DaysInMonths ={ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+             Console.Write("Enter The Month : ");
+             Console.WriteLine(DaysInMonths[int.Parse(Console.ReadLine())-1]); 
+            */
+
+            //We Can Use Switch
+            //Console.Write("Enter The Month : ");
+            //int Month = int.Parse(Console.ReadLine());
+            //switch (Month)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("31");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("28 if leap year it's 29 ");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("30");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid input");
+            //        break;
+            //}
+            #endregion
         }
     }
 }
