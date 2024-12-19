@@ -319,8 +319,104 @@ namespace Demo3
 
             #endregion
 
+            #region Evolution Switch In C#
+            #region C#06
+            //Console.WriteLine("Enter Age");
+            //int Age = int.Parse(Console.ReadLine());
+            //switch (Age)
+            //{
+            //    case > 22 && <3:
+            //             Console.WriteLine("Age Dreater Than 22");
+            //            break;
+            //    case < 22:
+            //        Console.WriteLine("Age less than 22");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Age Equal 22");
+            //        break;
+            //}
+            #endregion
+
+            #region C#07
+            //object obj = new object();
+
+            //obj = "Mostafa";
+            ////obj = 10;
+            ////obj = true;
+
+            //switch (obj)
+            //{
+            //    case int Number when Number>10 && Number<20 :
+            //        Console.WriteLine($"{Number} is int");
+            //        break;
+            //    case string Name:
+            //        Console.WriteLine($"{Name} is String");
+            //        break;
+            //    case bool Flag:
+            //        Console.WriteLine($"{Flag} is Bool");
+            //        break;
+
+            //}
+            #endregion
+
+            #region C#08
+            #region Ex01
+            //Console.WriteLine("Enter Option");
+            //int Option = int.Parse(Console.ReadLine());
+
+            //string Message = Option switch
+            //{
+            //    1 => "Option 01",
+            //    2 => "Option 02",
+            //    3 => "Option 03",
+            //    _ => "Invalid"
+            //};
+
+            //Console.WriteLine(Message); 
+            #endregion
+            #region EX02
+            //Employee E01 = new Employee();
+
+            //E01.Name = "Ali";
+            //E01.Id = 10;
+            //E01.Age = 22;
+
+            //string Message = E01 switch
+            //{
+            //    { Id: 10, Name: "Alaa", Age: 22 } => $"{E01.Id} : {E01.Name} {E01.Age}",
+            //    { Id: 10, Name: "Ali", Age: 22 } => $"{E01.Id} : {E01.Name} {E01.Age}",
+            //    { Id: 20, Name: "Mona", Age: 20 } => $"{E01.Id} : {E01.Name} {E01.Age}"
+            //};
+
+            #endregion
+            #endregion
+
+            #region C# 09
+            //Employee E01 = new Employee();
+
+            //E01.Name = "Alaa";
+            //E01.Id = 10;
+            //E01.Age = 22;
+
+            //string Message = E01 switch
+            //{
+            //    { Age: > 22 and < 25 } => $"{E01.Id} {E01.Name}: {E01.Age}",
+            //    { Age: 25 or 23 } => $"{E01.Id} {E01.Name}: {E01.Age}",
+            //    { Age: 20 } => $"{E01.Id} {E01.Name}: {E01.Age}"
+            //};
+
+            //Console.WriteLine(Message);
+            #endregion
+            #endregion
 
 
         }
+    }
+
+    class Employee
+    {
+        public string Name { get;  set; }
+        public int Id { get;  set; }
+        public int Age { get; set; }
     }
 }
