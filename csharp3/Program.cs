@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Drawing;
 using System.Transactions;
 using System.Xml.Linq;
 
@@ -231,6 +232,30 @@ namespace Assignment
              * in value type when you modify variable don't affect on the other one
              */
             #endregion
+
+            #region Q13 - Number - 22
+            //22-	Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+            //point R1 = new point(); // Define 1st Variable
+            //point R2 = R1;                       // Define 2nd Variable and assign variable 1 to variable 2
+
+            //Console.WriteLine("values before modifications");  // Print before modifications
+            //Console.WriteLine("Variable 1: " + R1.x);
+            //Console.WriteLine("Variable 2: " + R2.x);
+
+
+            //R1.x = 524;                // Modify 1st Variable
+
+            //Console.WriteLine("values after modifications"); // Print after modifications
+            //Console.WriteLine("Variable 1: " + R1.x);
+            //Console.WriteLine("Variable 2: " + R2.x);
+
+            ////Modifications will reflect on the both Variables because both refer to the same address as a reference type
+            #endregion
         }
+    }
+
+    class point
+    {//Q13 - 21
+        public int x;
     }
 }
