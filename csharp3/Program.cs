@@ -171,7 +171,7 @@ namespace Assignment
             //}
             #endregion
 
-            #region Q10 - Number - 12
+            #region Q10 - Number - 17
             //17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
             //Console.Write("Enter x1: ");
             //double x1 = double.Parse(Console.ReadLine());
@@ -190,6 +190,33 @@ namespace Assignment
             //String Message = ((y2 - y1) / (x2 - x1)) == (y3 - y2) / (x3 - x2) ? "The points lie on a single straight line." : "The points do not lie on a single straight line.";
 
             //Console.WriteLine(Message);
+            #endregion
+
+            #region Q11 - Number - 18
+            /*
+             *18- Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task. A worker's efficiency level is determined as follows: 
+                - If the worker completes the job within 2 to 3 hours, they are considered highly efficient. 
+                - If the worker takes 3 to 4 hours, they are instructed to increase their speed. 
+                - If the worker takes 4 to 5 hours, they are provided with training to enhance their speed. 
+                - If the worker takes more than 5 hours, they are required to leave the company. 
+                To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
+ 
+             */
+            //Console.Write("Enter the time taken for the task: ");
+            //double time = double.Parse(Console.ReadLine());
+
+            //if (time >=2 && time <3 )
+            //    Console.WriteLine("highly efficient");
+            //else if (time >= 3 && time < 4)
+            //    Console.WriteLine("increase your speed");
+            //else if (time >= 4 && time < 5)
+            //    Console.WriteLine("training to enhance your speed.");
+            //else if (time >= 5)
+            //    Console.WriteLine("leave the company.");
+            //else Console.WriteLine("Invalid !!! " );
+
+
+
             #endregion
         }
     }
