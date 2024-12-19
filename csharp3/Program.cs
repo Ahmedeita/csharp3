@@ -218,6 +218,19 @@ namespace Assignment
 
 
             #endregion
+
+            #region Q12 - Number - 21
+            //21-	Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            //int x = 12;
+            //int y = x; // Make a copy of x at y 
+            //Console.WriteLine($"before Modification X is {x} , Y is {y}");
+            //x = 50;
+            //Console.WriteLine($"After Modification X is {x} , Y is {y}");
+
+            /*what happened
+             * in value type when you modify variable don't affect on the other one
+             */
+            #endregion
         }
     }
 }
