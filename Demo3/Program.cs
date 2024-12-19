@@ -152,6 +152,25 @@
 
             #endregion
 
+            #region Operator Periority
+            /*
+             * Unary Operator prefix
+             * ( )
+             * * / %
+             * + -
+             */
+            //int A = 20;
+            //int B = 15;
+            //int C = 10;
+            //int D = 5;
+
+            //int Result = (A + B) * C / D;
+            //Result = A ++ * C;
+            ////Result = A * C;
+
+            //Console.WriteLine( Result);
+            #endregion
+
 
 
 
