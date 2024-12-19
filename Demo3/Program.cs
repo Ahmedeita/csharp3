@@ -31,6 +31,39 @@
 
             #endregion
 
+            #region Parse [Convert from String To any DataType]
+            //int Number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Data User");
+            //Console.WriteLine("Enter Name : ");
+            //String Name = Console.ReadLine();
+            //Console.WriteLine("Enter Age : ");
+            //int Age =int.Parse( Console.ReadLine());
+            //Console.WriteLine("Enter Salary : ");
+            //double Salary =double.Parse( Console.ReadLine());
+
+            //Console.Clear();
+            //Console.WriteLine("Name : " + Name);
+
+            #endregion
+
+            #region Convert [From Any to Any DataType]
+
+            //int Number = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Data User");
+            //Console.WriteLine("Enter Name : ");
+            //String Name = Console.ReadLine();
+            //Console.WriteLine("Enter Age : ");
+            //int Age =Convert.ToInt32( Console.ReadLine());
+            //Console.WriteLine("Enter Salary : ");
+            //double Salary =Convert.ToDouble( Console.ReadLine());
+
+
+
+            #endregion
+
+
+
+
 
             #endregion
 
