@@ -61,6 +61,97 @@
 
             #endregion
 
+            #region Oprators
+            #region Unary Operators [++, --]
+
+            int x = 5;
+            //X++; 
+
+            //++X;
+            //Console.WriteLine(++X); 
+
+            //Console.WriteLine(X);
+
+            //Console.WriteLine(--X);
+            //Console.WriteLine(X); 
+
+            //Console.WriteLine(X);
+
+            #endregion
+
+            #region Binary Operator
+            //int Sum, Mul, Sub, Div, Mod; 
+
+            //int A = 8;
+            //int B = 5;
+
+            //Sum = A + B; // 15
+            //Sub = A - B; // 5
+            //Div = A / B; // 2 
+            //Mul = A * B; // 50
+            //Mod = A % B; // 3
+            //Console.WriteLine(Sum); 
+
+            #endregion
+
+            #region Assignment Operator
+            //int X = 10; 
+
+            //X += 10; // X = X + 10
+            //X -= 10; // X = X - 10
+            //X *= 10; // X = X * 10
+            //X /= 10; // X = X / 10
+            //X %= 10; // X = X % 10
+            #endregion
+
+            #region Relational Operators
+            //int A = 5;
+            //int B = 10;
+
+            //Console.WriteLine(A < B); 
+            #endregion
+
+            #region Logical Operators [short circuit]
+            //Console.WriteLine(!true); 
+
+            //Console.WriteLine(true && false);
+            // True && True => True
+            // True && False => False
+            // False && True => False
+            // False && False => False
+
+            //Console.WriteLine(true || false);
+            // True || True => True
+            // True || False => True
+            // False || True => True
+            // False || False => False
+            #endregion
+
+            #region Bitwise Operators [long circuit]
+            //Console.WriteLine(true & false);
+            // True & True => True
+            // True & False => False
+            // False & True => False
+            // False & False => False
+
+            //Console.WriteLine(true || false);
+            // True | True => True
+            // True | False => True
+            // False | True => True
+            // False | False => False
+            #endregion
+
+            #region Ternary Operator [Conditional Operator]
+
+            //int X = 3;
+
+            //string Message = X > 4 ? "X Greater Than 4" : "X Less than Or Equal 4";
+            //Console.WriteLine(Message);
+
+            #endregion
+
+            #endregion
+
 
 
 
