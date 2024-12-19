@@ -170,6 +170,27 @@ namespace Assignment
             //        break;
             //}
             #endregion
+
+            #region Q10 - Number - 12
+            //17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+            //Console.Write("Enter x1: ");
+            //double x1 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter y1: ");
+            //double y1 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter x2: ");
+            //double x2 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter y2: ");
+            //double y2 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter x3: ");
+            //double x3 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter y3: ");
+            //double y3 = double.Parse(Console.ReadLine());
+
+
+            //String Message = ((y2 - y1) / (x2 - x1)) == (y3 - y2) / (x3 - x2) ? "The points lie on a single straight line." : "The points do not lie on a single straight line.";
+
+            //Console.WriteLine(Message);
+            #endregion
         }
     }
 }
