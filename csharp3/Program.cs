@@ -251,6 +251,13 @@ namespace Assignment
 
             ////Modifications will reflect on the both Variables because both refer to the same address as a reference type
             #endregion
+
+            #region Q14 - Number - 23
+            //23-	Which of the following statements is correct about the C#.NET code snippet given below?
+            //int d;
+            //d = Convert.ToInt32(!(30 < 20)); //30 < 20 will return False which is equal 0 and when make Not False return True which is equal 1 
+            //b)	A value 1 will be assigned to d. 
+            #endregion
         }
     }
 
