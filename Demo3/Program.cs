@@ -286,10 +286,41 @@ namespace Demo3
             //}
 
 
-                    #endregion
+            #endregion
+
+            #region GoTo
+            //Console.WriteLine("Enter Option");
+
+            // 3000 => "Option 01", "Option 02", "Option 03"
+            // 2000 => "Option 01", "Option 02"
+            // 1000 => "Option 01"
+
+            //int Option = int.Parse(Console.ReadLine());
+
+            //switch (Option)
+            //{
+            //    case 3000:
+            //        Console.WriteLine("Option 03");
+            //        goto case 2000;
+
+
+            //    case 2000:
+            //        Console.WriteLine("Option 02");
+            //        goto case 1000;
+
+            //    case 1000:
+            //        Console.WriteLine("Option 01");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Invalid Option");
+            //        break;
+            //}
+
+            #endregion
 
 
 
-            }
+        }
     }
 }
