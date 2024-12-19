@@ -261,8 +261,22 @@ namespace Assignment
 
             #region Q15 - Number - 24 
             //24-	Which of the following is the correct output for the C# code given below?
-           // Console.WriteLine(13 / 2 + " " + 13 % 2);
+            // Console.WriteLine(13 / 2 + " " + 13 % 2);
             //d)	6 1    // return 13/2 as int = 6  and reminder of 13 / 2 is 1
+            #endregion
+
+            #region Q16 - Number - 25 
+            //int num = 1, z = 5;
+
+            //if (!(num <= 0))
+            //    Console.WriteLine(++num + z++ + " " + ++z);
+            //    //                   2  + 5 = 7  " "    7
+            //else
+            //    Console.WriteLine(--num + z-- + " " + --z);
+            //               //      0    + 5     "  "   3
+
+            ////d)	7 7
+
             #endregion
         }
     }
