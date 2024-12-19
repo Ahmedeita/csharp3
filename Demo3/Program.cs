@@ -1,4 +1,6 @@
-﻿namespace Demo3
+﻿using System.Xml.Linq;
+
+namespace Demo3
 {
     internal class Program
     {
@@ -57,6 +59,9 @@
             //Console.WriteLine("Enter Salary : ");
             //double Salary =Convert.ToDouble( Console.ReadLine());
 
+
+
+            #endregion
 
 
             #endregion
@@ -204,11 +209,87 @@
             #endregion
 
 
+            #region IF - Switch
+            //Console.WriteLine("Enter Month Number");
+            //int MonthNumber = int.Parse(Console.ReadLine());
+
+            //// 1 => Month is Jan
+            //// 2 => Month is Feb
+            //// 3 => Month is Mar
+            //// Invalid Input
+
+            //if (MonthNumber == 1)
+            //{
+            //    Console.WriteLine("Month is Jan");
+            //}
+            //else if (MonthNumber == 2)
+            //{
+            //    Console.WriteLine("Month is Feb");
+            //}
+            //else if (MonthNumber == 3)
+            //{
+            //    Console.WriteLine("Month is Mar");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Input");
+            //}
 
 
 
-            #endregion
+            //switch (MonthNumber)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Month is Jan");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Month is Feb");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Month is Mar");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid Input");
+            //        break;
+            //}
 
-        }
+
+            //Console.WriteLine("Enter Name");
+            //string Name = Console.ReadLine();
+
+            //if (Name == "Mostafa")
+            //{
+            //    Console.WriteLine("Hello Mostafa");
+            //}
+            //else if (Name == "Aliaa")
+            //{
+            //    Console.WriteLine("Hello Aliaa");
+            //}
+            //else if (Name == "Ahmed")
+            //{
+            //    Console.WriteLine("Hello Ahmed");
+            //}
+
+
+            //switch (Name)
+            //{
+            //    case "Mostafa":
+            //        Console.WriteLine("Hello Mostafa");
+            //        break;
+            //    case "Aliaa":
+            //        Console.WriteLine("Hello Aliaa");
+            //        break;
+            //    case "Ahmed":
+            //        Console.WriteLine("Hello Ahmed");
+            //        break;
+
+            //}
+
+
+                    #endregion
+
+
+
+            }
     }
 }
