@@ -258,6 +258,12 @@ namespace Assignment
             //d = Convert.ToInt32(!(30 < 20)); //30 < 20 will return False which is equal 0 and when make Not False return True which is equal 1 
             //b)	A value 1 will be assigned to d. 
             #endregion
+
+            #region Q15 - Number - 24 
+            //24-	Which of the following is the correct output for the C# code given below?
+           // Console.WriteLine(13 / 2 + " " + 13 % 2);
+            //d)	6 1    // return 13/2 as int = 6  and reminder of 13 / 2 is 1
+            #endregion
         }
     }
 
