@@ -171,6 +171,38 @@
             //Console.WriteLine( Result);
             #endregion
 
+            #region String Formatting
+
+            // Equation = X + Y = Result 
+            // Equation = 10 + 5 = 15 
+
+            //int X = 5;
+            //int Y = 10;
+            //int Result = X + Y;
+
+            //Console.WriteLine("Equation : " + X + "+" + Y + "=" + Result); 
+
+            // String => Immutable Datatype
+            //string Name = "Ahmed";
+            //Name = "Ali"; 
+
+            #region 1. Composite Format
+            //string Message = string.Format("Equation = {0} + {1} = {2}", X, Y, Result);
+
+            //Console.WriteLine(Message);
+            //Console.WriteLine("Equation = {0} + {1} = {2}", X, Y, Result);
+
+            #endregion
+
+            #region 2. String Manipolition 
+            // string Interpolation => $
+
+            // Console.WriteLine($"Equation = {X} + {Y} = {Result}");
+
+            #endregion
+
+            #endregion
+
 
 
 
